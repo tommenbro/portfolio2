@@ -39,7 +39,7 @@ const Experience = () => {
               </p>
             </AnimateOnScroll1>
             <AnimateOnScroll2>
-              <p className="mt-4 mb-8 sm:text-center text-sm font-normal dark:text-light text-black duration-500 cursor-default">
+              <p className="mt-5 mb-10 sm:text-center text-sm font-normal dark:text-light text-black duration-500 cursor-default">
                 <span className="dark:text-secondary text-accent text-sm">
                   //
                 </span>{" "}
@@ -51,126 +51,162 @@ const Experience = () => {
         </div>
         <AnimateOnScroll4>
           <div className="mx-auto flex items-center justify-center text-center">
-            <div className="mx-auto flex-col items-center justify-center text-center sm:mr-4">
-              <div className="flex space-x-4">
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+            <div className="mx-auto flex-col items-center justify-center text-center sm:mr-5">
+              <div className="flex space-x-5">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
                     <SiHtml5 alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">HTML</p>
+                    <p className="text-xs font-light pt-1 opacity-0 group-hover:opacity-100 duration-300">
+                      HTML
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiCss3 alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">CSS</p>
+                    <SiCss3 alt="CSS" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      CSS
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <DiJavascript alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">JS</p>
-                  </div>
-                </div>
-              </div>
-              <div className="flex space-x-4 mt-4">
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
-                  <div className="dark:text-light text-white">
-                    <SiReact alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">ReactN</p>
-                  </div>
-                </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
-                  <div className="dark:text-light text-white">
-                    <SiNextdotjs alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Next</p>
-                  </div>
-                </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
-                  <div className="dark:text-light text-white">
-                    <SiVuedotjs alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Vue</p>
+                    <DiJavascript alt="JavaScript" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      JS
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className="flex space-x-4 mt-4">
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+              <div className="flex space-x-5 mt-5">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <FaJava alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Swift</p>
+                    <SiReact alt="React" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      React
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiSwift alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Java</p>
+                    <SiNextdotjs alt="Next.js" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Next
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiKotlin alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Kotlin</p>
+                    <SiVuedotjs alt="Vue" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Vue
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex space-x-5 mt-5">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
+                  <div className="dark:text-light text-white">
+                    <FaJava alt="Swift" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Swift
+                    </p>
+                  </div>
+                </div>
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
+                  <div className="dark:text-light text-white">
+                    <SiSwift alt="Java" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Java
+                    </p>
+                  </div>
+                </div>
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
+                  <div className="dark:text-light text-white">
+                    <SiKotlin alt="Kotlin" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Kotlin
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mx-auto flex-col items-center justify-center text-center ml-4">
-              <div className="flex space-x-4">
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+            <div className="mx-auto flex-col items-center justify-center text-center ml-5">
+              <div className="flex space-x-5">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiFigma alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Figma</p>
+                    <SiFigma alt="Figma" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Figma
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiTailwindcss alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">TW</p>
+                    <SiTailwindcss alt="TailWindCSS" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      TW
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiSolidity alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Solidity</p>
-                  </div>
-                </div>
-              </div>
-              <div className="flex space-x-4 mt-4">
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
-                  <div className="dark:text-light text-white">
-                    <SiGithub alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Github</p>
-                  </div>
-                </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
-                  <div className="dark:text-light text-white">
-                    <SiVercel alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Vercel</p>
-                  </div>
-                </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
-                  <div className="dark:text-light text-white">
-                    <SiHeroku alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Herokuu</p>
+                    <SiSolidity alt="Solidity" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Solidity
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className="flex space-x-4 mt-4">
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+              <div className="flex space-x-5 mt-5">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiMongodb alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Mongo</p>
+                    <SiGithub alt="GitHub" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Github
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
+                  <div className="dark:text-light text-white">
+                    <SiVercel alt="Vercel" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Vercel
+                    </p>
+                  </div>
+                </div>
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
+                  <div className="dark:text-light text-white">
+                    <SiHeroku alt="Heroku" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Heroku
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex space-x-5 mt-5">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
+                  <div className="dark:text-light text-white">
+                    <SiMongodb alt="MongoDB" size={40} />
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Mongo
+                    </p>
+                  </div>
+                </div>
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl group">
                   <div className="dark:text-light text-white">
                     <SiFirebase alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Fb</p>
+                    <p className="text-xs font-light pt-1  opacity-0 group-hover:opacity-100 duration-300">
+                      Fb
+                    </p>
                   </div>
                 </div>
-                <div className="text-center dark:bg-accent bg-secondary p-3 px-5 rounded-xl">
+                <div className="text-center dark:bg-accent bg-secondary p-3 px-[17px] rounded-xl group">
                   <div className="dark:text-light text-white">
-                    <SiDirectus alt="HTML" size={40} />
-                    <p className="text-xs font-light pt-1">Directus</p>
+                    <SiDirectus alt="Directus" size={40} />
+                    <p className="text-xs font-light pt-1 opacity-0 group-hover:opacity-100 duration-300">
+                      Directus
+                    </p>
                   </div>
                 </div>
               </div>
@@ -178,12 +214,12 @@ const Experience = () => {
           </div>
         </AnimateOnScroll4>
         <AnimateOnScroll4>
-          <div className="max-w-[1000px] w-full grid mt-8">
+          <div className="max-w-[1000px] w-full grid mt-10">
             <div className="sm:text-center">
               <p className="text-sm font-light  dark:text-white text-black dark:hover:text-white hover:text-dark duration-500 cursor-default">
                 During my studies at{" "}
                 <span className="dark:border-b-[1px] border-b-[1px] dark:border-secondary border-accent">
-                  Kristiania University College
+                  X College
                 </span>{" "}
                 I got to learn a lot of different technologies. <br />
                 These are some of them. <br />
@@ -197,8 +233,8 @@ const Experience = () => {
                 <br />
                 For my thesis, I took part in a project where we developed a
                 mobile application for a client. <br />
-                The group used technologies like React Native, NativeWind,
-                Firebase & more. <br />
+                During the development we used technologies like Figma, React
+                Native, TailwindCSS, Firebase & more. <br />
               </p>
             </div>
           </div>

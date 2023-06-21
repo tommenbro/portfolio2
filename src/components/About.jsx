@@ -24,7 +24,7 @@ const About = () => {
                 Pleased to meet you! <br />
                 My name is <br />
                 <span className="dark:text-white text-dark hover:text-black border-secondary border-b-[2px] dark:border-secondary dark:border-b-[0px] hover:border-b-[2px] dark:hover:border-b-[2px] duration-200">
-                  Tomas Nilsen Nakkerud.
+                  Aryes Calls.
                 </span>
                 <br />I hope you enjoy{" "}
                 <a className="dark:hover:text-white hover:text-black hover:border-b-[2px] duration-200 border-secondary dark:border-b-[0px] hover:cursor-pointer">
@@ -36,11 +36,11 @@ const About = () => {
           <AnimateOnScroll3>
             <div className="text-md font-regular text-left">
               <p className="dark:text-light text-dark font-regular duration-500 cursor-default">
-                I'm a passionate, 24 year old Fullstack Developer from Oslo,
-                Norway. Alongside getting a Bachelor's degree in Frontend &
-                Mobile Development, I've been coding and designing unique
-                projects of interest. To me, it's always inspiring to take on
-                new work, especially something different from the usual. <br />
+                I'm a passionate, 24 year old Fullstack Developer from Norway.
+                Alongside getting a Bachelor's degree in Frontend & Mobile
+                Development, I've been coding and designing unique projects of
+                interest. To me, it's always inspiring to take on new work,
+                especially something different from the usual. <br />
                 If you have any questions, feel free to{" "}
                 <a className="dark:text-white text-black duration-300 font-light hover:border-b-2 border-accent dark:border-secondary cursor-pointer">
                   contact me!
