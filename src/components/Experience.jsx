@@ -219,7 +219,7 @@ const Experience = () => {
               <p className="text-sm font-light  dark:text-white text-black dark:hover:text-white hover:text-dark duration-500 cursor-default">
                 During my studies at{" "}
                 <span className="dark:border-b-[1px] border-b-[1px] dark:border-secondary border-accent">
-                  X College
+                  Kristiania University College
                 </span>{" "}
                 I got to learn a lot of different technologies. <br />
                 These are some of them. <br />

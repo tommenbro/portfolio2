@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center text-center h-full pt-20 duration-500">
         <TypeWriter />
         <h1 className="text-black dark:text-white border-b-accent dark:border-b-secondary hover:border-b-[2px] border-b-[0px] dark:hover:border-b-[2px] dark:border-b-[0px] duration-200 cursor-default font-semibold text-xl sm:text-5xl mt-20 sm:mt-20">
-          I'm Aryes
+          I'm Tomas
         </h1>
         <h1 className="text-dark dark:text-light font-light text-lg sm:text-xl pt-10 sm:pt-10 duration-500">
           A Fullstack Developer & more
@@ -33,7 +33,7 @@ const Hero = () => {
           </AnimateOnScroll2>
           <AnimateOnScroll3>
             <a
-              href="mailto:inteceptarugginbruv@gmail.com"
+              href="mailto:2masnakkerud2@gmail.com"
               className="items-center justify-center text-center"
             >
               <AiFillMail

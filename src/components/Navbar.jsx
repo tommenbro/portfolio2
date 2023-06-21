@@ -96,10 +96,18 @@ const Navbar = () => {
         <li className="py-7 px-3 text-4xl">More</li>
         <li className="py-7 px-3 text-4xl">Contact</li>
         <li className="flex justify-center items-center text-center space-x-12 py-7">
-          <a href="https://github.com/" rel="noreferrer" target="_blank">
+          <a
+            href="https://github.com/tommenbro"
+            rel="noreferrer"
+            target="_blank"
+          >
             <Button />
           </a>
-          <a href="https://github.com/" rel="noreferrer" target="_blank">
+          <a
+            href="https://github.com/tommenbro"
+            rel="noreferrer"
+            target="_blank"
+          >
             <Button2 />
           </a>
         </li>
@@ -107,10 +115,10 @@ const Navbar = () => {
 
       {/* Buttons */}
       <div className="hidden sm:flex space-x-5 mx-10">
-        <a href="https://github.com/" rel="noreferrer" target="_blank">
+        <a href="https://github.com/tommenbro" rel="noreferrer" target="_blank">
           <Button />
         </a>
-        <a href="https://github.com/" rel="noreferrer" target="_blank">
+        <a href="https://github.com/tommenbro" rel="noreferrer" target="_blank">
           <Button2 />
         </a>
       </div>
